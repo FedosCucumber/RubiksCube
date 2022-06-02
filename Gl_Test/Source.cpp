@@ -113,7 +113,9 @@ int main(void)
                {
                    ImGui::SliderInt("Rotation speed", &FPS, 1, 60);
 
-                   ImGui::SliderFloat3("Translate", &translation_vec.x, -1800.0f, -1000.0f);
+                   ImGui::SliderFloat("Translate Z", &translation_vec.z, -1800.0f, -1000.0f);
+                   ImGui::SliderFloat2("Translate XY", &translation_vec.x, -200.0f, 200.0f);
+
                    ImGui::SliderFloat3("Scale", &scale_vec.x, 0.0f, 10.0f);
                    ImGui::SliderFloat3("Rotation", &rotations_vec.x, -PI, PI);
 
