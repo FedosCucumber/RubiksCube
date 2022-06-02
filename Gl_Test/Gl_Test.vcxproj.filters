@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shaders">
+      <UniqueIdentifier>{c479eed8-d4ab-48d1-8b48-de06ac66af26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Textures">
+      <UniqueIdentifier>{4ef4a5bc-1d63-412e-b231-a7aa00094a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\MyGlClasses">
+      <UniqueIdentifier>{4dfb6a51-cd4c-4ea7-b150-9efd19fc9a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\MyGlClasses">
+      <UniqueIdentifier>{cc1daf7e-4084-42af-ab75-ba70769c0ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Vendor">
+      <UniqueIdentifier>{fe86d7dd-4811-4b68-9f2e-9cc37009f443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Vendor">
+      <UniqueIdentifier>{fef30a47-3883-4e00-bbc3-062f0d85f9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GlObjects">
+      <UniqueIdentifier>{00b030ed-64b8-4f24-8f44-75fac15001f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GlObjects">
+      <UniqueIdentifier>{2768129c-e70a-4993-adb6-fa538012898e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\RCubeLogic">
+      <UniqueIdentifier>{1bf38cc9-c7c6-44a6-9203-be8e403e88ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\RCubeLogic">
+      <UniqueIdentifier>{29cf2506-664b-4b95-a7ef-62eb36dd1e58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Исходные файлы\MyGlClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Исходные файлы\MyGlClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Исходные файлы\MyGlClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Исходные файлы\MyGlClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Исходные файлы\MyGlClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Исходные файлы\MyGlClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Исходные файлы\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Исходные файлы\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Исходные файлы\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Исходные файлы\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw_gl3.cpp">
+      <Filter>Исходные файлы\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="RCube.cpp">
+      <Filter>Исходные файлы\GlObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Исходные файлы\GlObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube_Logic\RLogicCube.cpp">
+      <Filter>Исходные файлы\RCubeLogic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Basic.shader">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Файлы заголовков\MyGlClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Файлы заголовков\MyGlClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Файлы заголовков\MyGlClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Файлы заголовков\MyGlClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Файлы заголовков\MyGlClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferLayout.h">
+      <Filter>Файлы заголовков\MyGlClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Файлы заголовков\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Файлы заголовков\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Файлы заголовков\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw_gl3.h">
+      <Filter>Файлы заголовков\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Файлы заголовков\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>Файлы заголовков\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>Файлы заголовков\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>Файлы заголовков\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="RCube.h">
+      <Filter>Файлы заголовков\GlObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Файлы заголовков\GlObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube_Logic\RLogicCube.hpp">
+      <Filter>Файлы заголовков\RCubeLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube_Logic\RSolver.hpp">
+      <Filter>Файлы заголовков\RCubeLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Файлы заголовков\MyGlClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DannyDevito.png">
+      <Filter>Файлы ресурсов\Textures</Filter>
+    </Image>
+    <Image Include="DannyDevitoFaceTexture.png">
+      <Filter>Файлы ресурсов\Textures</Filter>
+    </Image>
+    <Image Include="DefaultTexture.png">
+      <Filter>Файлы ресурсов\Textures</Filter>
+    </Image>
+    <Image Include="RElemText.png">
+      <Filter>Файлы ресурсов\Textures</Filter>
+    </Image>
+    <Image Include="HvostFace.png">
+      <Filter>Файлы ресурсов\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
