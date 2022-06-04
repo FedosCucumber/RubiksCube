@@ -9,6 +9,8 @@ Cube can be solved using an algorithm that ususe a population/mutation approach.
 
 ## Building
 Project was made using visual studio. .sln file is included in the repository, hence to build you may use the visual studio tools to compile and change the code. The binaries can be found inside the repository. Note: binaries should not be downloaded withtout the whole project or used outside of the folder because of the various dependencies.  
+
+There is a compiled .exe package for windows x64 with all the necessary files in the release section. An imgui.ini file may  be created on use. 
 ## Usage
 The application provides a simple UI. 
 ![Alt Text](https://media.giphy.com/media/uUa6O8723yDMjQEeRO/giphy.gif) 
